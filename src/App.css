@@ -1,0 +1,62 @@
+/* src/App.css */
+
+:root {
+  --primary-color: #800020; /* Burgundy */
+  --secondary-color: #ffffff; /* White */
+  --accent-color: #d4af37; /* Gold */
+  --background-color: #f4f4f4; /* Light Gray */
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--primary-color);
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+input, select, button {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input, select {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+}
+
+div {
+  margin-top: 20px;
+}
+
+h2 {
+  color: var(--primary-color);
+}
+
+p {
+  font-size: 18px;
+  color: var(--primary-color);
+}
